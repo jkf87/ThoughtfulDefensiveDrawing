@@ -1,0 +1,53 @@
+#certificate {
+  position: relative;
+  width: 100%;
+  max-width: 1248px;
+}
+
+#certificate img {
+  width: 100%;
+  height: auto;
+}
+
+#name {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#input-div {
+  margin-top: 20px;
+}
+
+#input-div input,
+#input-div button {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#course {
+  position: absolute;
+  top: 56%;
+  /* Position adjusted to place the course name below the 'has Successfully completed 2024.' text */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: pre-line;
+  /* This will ensure that if the course name is long, it will wrap to the next line */
+}
+
+#teacher {
+  position: absolute;
+  top: 75%;
+  /* Position adjusted to place the teacher's name below the course name */
+  left: 37%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: normal;
+  white-space: pre-line;
+  /* This will ensure that if the course name is long, it will wrap to the next line */
+}

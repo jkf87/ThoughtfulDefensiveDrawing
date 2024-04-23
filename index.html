@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <!-- Include the html2canvas library. This requires internet connection. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</head>
+
+<body>
+  <div id="certificate">
+    <span id="course"></span>
+    <span id="name"></span>
+    <span id="teacher"></span>
+    <img src="certificate.png" alt="Certificate">
+  </div>
+  <div id="input-div">
+    <input id="input-name" type="text" placeholder="이름을 입력하세요">
+    <br>
+    <input id="input-course" type="text" placeholder="과정명을 입력하세요" value="로블록스 점프 챌린지: 나만의 점프맵 만들기!" style="width:600px">
+    <br>
+    <input id="input-teacher" type="text" placeholder="교사 이름을 입력하세요" value="Conanssam">
+
+    <button id="update-button" onclick="updateName()">제출</button>
+    <button id="save-button" onclick="saveAsImage()">출력</button>
+  </div>
+</body>
+
+</html>
